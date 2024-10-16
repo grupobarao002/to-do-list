@@ -17,7 +17,7 @@ btnAddtarefa.addEventListener('click',function(){
 
        botaoRemover.addEventListener('click', function(){
        li.remove();
-    )};
+       });
 
 
         li.appendChid(botaoRemover);
