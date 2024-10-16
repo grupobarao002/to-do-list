@@ -6,11 +6,11 @@ btnAddtarefa.addEventListener('click',function(){
     const tarefa = novaTarefa.value;
      
 
-    if(tarefa.trim()!==" "){
+    if(tarefa){
 
        const li = document.createElement('li');
 
-       li.textContent = novaTarefa;
+       li.textContent = tarefa;
 
        const botaoRemover = document.createElement('button');
        botaoRemover.textContent="remover";
