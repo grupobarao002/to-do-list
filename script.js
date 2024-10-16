@@ -6,7 +6,7 @@ btnAddtarefa.addEventListener('click',function(){
     const tarefa = novaTarefa.value;
      
 
-    if(tarefa !=" "){
+    if(tarefa.trim()!==" "){
 
        const li = document.createElement('li');
 
@@ -20,7 +20,10 @@ btnAddtarefa.addEventListener('click',function(){
        });
 
 
-        li.appendChid(botaoRemover);
+        const div = document.createElement('div');
+        div.appendChild(botaoRemover)
+        li.appendChild(div)
+
         listaTarefa.appendChild(li);
     
         novaTarefa.value = "";
