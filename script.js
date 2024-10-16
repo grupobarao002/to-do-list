@@ -13,7 +13,7 @@ btnAddtarefa.addEventListener('click',function(){
        li.textContent = novaTarefa;
 
        const botaoRemover = document.createElement('button');
-       botaoRemover.textContent = "remover";
+       botaoRemover.textContent="remover";
 
        botaoRemover.addEventListener('click', function(){
         li.remove();
