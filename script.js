@@ -25,7 +25,7 @@ btnAddtarefa.addEventListener('click',function(){
     
         novaTarefa.value = "";
 
-        
+
     }
 
 
