@@ -16,7 +16,7 @@ btnAddtarefa.addEventListener('click',function(){
        bataoRemover.textContent = "remover";
 
        botaoRemover.addEventListener('click', function(){
-       li.remove();
+        li.remove();
        });
 
 
